@@ -1,8 +1,8 @@
 {
-  "name": "mxgraph",
+  "name": "ch-feature-mxgraph",
   "description": "mxGraph is a fully client side JavaScript diagramming library that uses SVG and HTML for rendering.",
-  "version": "4.0.6",
-  "homepage": "https://github.com/jgraph/mxgraph",
+  "version": "1.0.1",
+  "homepage": "https://github.com/chgitcrazy/mxgraph",
   "author": {
     "name": "JGraph Ltd",
     "email": "support@jgraph.com"
@@ -10,10 +10,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgraph/mxgraph.git"
+    "url": "https://github.com/chgitcrazy/mxgraph"
   },
   "bugs": {
-    "url": "https://github.com/jgraph/mxgraph/issues"
+    "url": "https://github.com/chgitcrazy/mxgraph/issues"
   },
   "main": "./javascript/dist/build.js",
   "scripts": {
