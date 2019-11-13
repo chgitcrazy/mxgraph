@@ -1,8 +1,8 @@
-function LineEllipseShape() {
+function mxLineEllipse() {
     mxEllipse.call(this);
 };
-mxUtils.extend(LineEllipseShape, mxEllipse);
-LineEllipseShape.prototype.paintVertexShape = function (c, x, y, w, h) {
+mxUtils.extend(mxLineEllipse, mxEllipse);
+mxLineEllipse.prototype.paintVertexShape = function (c, x, y, w, h) {
     mxEllipse.prototype.paintVertexShape.apply(this, arguments);
 
     c.setShadow(false);
@@ -20,4 +20,4 @@ LineEllipseShape.prototype.paintVertexShape = function (c, x, y, w, h) {
     c.stroke();
 };
 
-mxCellRenderer.registerShape('lineEllipse', LineEllipseShape);
+// mxCellRenderer.registerShape('lineEllipse', mxLineEllipse);
